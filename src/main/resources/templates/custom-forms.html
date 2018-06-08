@@ -1,0 +1,34 @@
+
+<!-- Brand and toggle get grouped for better mobile display -->
+<div th:fragment="customer-registration">
+
+</div>
+<div th:fragment="complaint">
+
+</div>
+<div th:fragment="hotel-reservation">
+
+</div>
+<div th:fragment="travel-request">
+
+	<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Traveler's Department</label>
+		<div class="col-sm-10">
+			<input class="form-control" th:field="*{travelerModel.travelersDepartment}" id="travelersDepartment" placeholder="travelersDepartment" /> 
+		</div>
+	</div>
+
+	<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Travel Purpose</label>
+		<div class="col-sm-10">
+			<input class="form-control" th:field="*{travelerModel.travelersPurpose}" id="travelersPurpose" placeholder="travel purpose" />
+		</div>
+	</div>
+<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Travel Date</label>
+		<div class="col-sm-10">
+			<input class="form-control" th:field="*{travelerModel.travelersFromDate}" id="travelersFromDate" placeholder="from date" />
+			<input class="form-control" th:field="*{travelerModel.travelersToDate}" id="travelersToDate" placeholder="to date" />
+		</div>
+	</div>
+</div>

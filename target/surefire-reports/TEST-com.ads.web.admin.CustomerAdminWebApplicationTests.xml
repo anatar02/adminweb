@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ads.web.admin.CustomerAdminWebApplicationTests" time="0.006" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Shared/ATDD/development/customeradminweb"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Shared/ATDD/development/customeradminweb"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/82/2yzv_r3131j7j4d1lbyz3scj08bvzd/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lmn490/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.0/libexec/lib/jansi-native/osx64"/>
+    <property name="user.home" value="/Users/lmn490"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="lmn490"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/lmn490/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.0/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="com.ads.web.admin.CustomerAdminWebApplicationTests" time="0.006">
+    <error message="Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.ads.web.admin.CustomerAdminWebApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/CustomerAdminWebApplication.class], Generic bean: class [com.ads.web.admin.UserDataHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/UserDataHelper.class]]" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.ads.web.admin.CustomerAdminWebApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/CustomerAdminWebApplication.class], Generic bean: class [com.ads.web.admin.UserDataHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/UserDataHelper.class]]
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.boot.test.context.SpringBootConfigurationFinder.scanPackage(SpringBootConfigurationFinder.java:69)
+	at org.springframework.boot.test.context.SpringBootConfigurationFinder.findFromPackage(SpringBootConfigurationFinder.java:59)
+	at org.springframework.boot.test.context.SpringBootConfigurationFinder.findFromClass(SpringBootConfigurationFinder.java:52)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:172)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:133)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:78)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[11:15:53.328 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.ads.web.admin.CustomerAdminWebApplicationTests]
+11:15:53.333 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:15:53.342 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:15:53.358 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ads.web.admin.CustomerAdminWebApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:15:53.376 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ads.web.admin.CustomerAdminWebApplicationTests], using SpringBootContextLoader
+11:15:53.380 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: class path resource [com/ads/web/admin/CustomerAdminWebApplicationTests-context.xml] does not exist
+11:15:53.380 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: class path resource [com/ads/web/admin/CustomerAdminWebApplicationTestsContext.groovy] does not exist
+11:15:53.380 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:15:53.381 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: CustomerAdminWebApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:15:53.422 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ads.web.admin.CustomerAdminWebApplicationTests]
+11:15:53.434 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:53.435 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:53.435 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:15:53.448 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/ads/web/admin/] to resources [URL [file:/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin/], URL [file:/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/]]
+11:15:53.448 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin]
+11:15:53.448 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin] for files matching pattern [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin/*.class]
+11:15:53.451 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin]
+11:15:53.451 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin] for files matching pattern [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/*.class]
+11:15:53.453 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/ads/web/admin/*.class] to resources [file [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin/CustomerAdminWebApplicationTests.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/CustomerAdminWebApplication.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/FeebackRepository.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/FeedbackEntity.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/FormSettingModel.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/StatusUIModel.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/Traveler.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/UserDataHelper.class]]
+11:15:53.503 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/CustomerAdminWebApplication.class]
+11:15:53.507 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/UserDataHelper.class]
+11:15:53.511 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.ads.web.admin.CustomerAdminWebApplicationTests]
+11:15:53.511 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:15:53.511 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:15:53.512 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ads.web.admin.CustomerAdminWebApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:15:53.512 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ads.web.admin.CustomerAdminWebApplicationTests], using SpringBootContextLoader
+11:15:53.513 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: class path resource [com/ads/web/admin/CustomerAdminWebApplicationTests-context.xml] does not exist
+11:15:53.513 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: class path resource [com/ads/web/admin/CustomerAdminWebApplicationTestsContext.groovy] does not exist
+11:15:53.513 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:15:53.513 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ads.web.admin.CustomerAdminWebApplicationTests]: CustomerAdminWebApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:15:53.517 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ads.web.admin.CustomerAdminWebApplicationTests]
+11:15:53.517 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:53.517 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:53.517 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:15:53.518 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/ads/web/admin/] to resources [URL [file:/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin/], URL [file:/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/]]
+11:15:53.518 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin]
+11:15:53.518 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin] for files matching pattern [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin/*.class]
+11:15:53.519 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin]
+11:15:53.519 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin] for files matching pattern [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/*.class]
+11:15:53.520 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/ads/web/admin/*.class] to resources [file [/Users/Shared/ATDD/development/customeradminweb/target/test-classes/com/ads/web/admin/CustomerAdminWebApplicationTests.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/CustomerAdminWebApplication.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/FeebackRepository.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/FeedbackEntity.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/FormSettingModel.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/StatusUIModel.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/Traveler.class], file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/UserDataHelper.class]]
+11:15:53.522 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/CustomerAdminWebApplication.class]
+11:15:53.525 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/Shared/ATDD/development/customeradminweb/target/classes/com/ads/web/admin/UserDataHelper.class]
+]]></system-out>
+  </testcase>
+</testsuite>

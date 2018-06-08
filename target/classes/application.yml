@@ -1,0 +1,42 @@
+settings:
+  status:
+    OPEN:
+      display: Open
+      style: panel panel-yellow
+    CLOSED:
+      display: Closed
+      style: panel panel-green
+    INPROGRESS:
+      display: In Progress
+      style: panel panel-primary
+    ESCALATING: 
+      display: Esclating
+      style: panel panel-red
+  issueTypes:
+     COMPLAINT: 
+       fragment: complaint
+       title: Complaint
+     HOTEL_RESERVATION: 
+       fragment: hotel-reservation
+       title: Hotel Reservation
+     ENQUIRY: 
+       fragment: enquiry
+       title: General Enquiry
+     TRAVEL_REQUEST: 
+       fragment: travel-request
+       title: Travel Request
+data:
+  user:
+    companya:
+      companyName: Honda India Ltd
+      companyId: 1000
+    companyb:
+      companyName: HolidayInn
+      companyId: 1001
+      
+      
+spring:
+  data:
+    mongodb:
+      uri: mongodb://app_user:password@ds111791.mlab.com:11791/feedback-db
+             
